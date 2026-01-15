@@ -1,0 +1,2773 @@
+Package: aircard-pcmcia-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Description:  Sierra Wireless Aircard 555/7xx/8x0 firmware
+
+Package: airoha-en8811h-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+LicenseFiles: LICENSE.airoha
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 153600
+Description:  Airoha EN8811H 2.5G Ethernet PHY firmware
+
+Package: amd64-microcode
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+LicenseFiles: LICENSE.amd-ucode
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 92160
+Description:  AMD64 CPU microcode
+
+Package: amdgpu-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+LicenseFiles: LICENSE.amdgpura
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 95662080
+Description:  AMDGPU Video Driver firmware
+
+Package: ar3k-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+LicenseFiles: LICENSE.QualcommAtheros_ar3k
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 1597440
+Description:  ath3k firmware
+
+Package: ath10k-board-qca4019
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+LicenseFiles: LICENSE.QualcommAtheros_ath10k
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 1832960
+Description:  ath10k qca4019 board firmware
+
+Package: ath10k-board-qca9377
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+LicenseFiles: LICENSE.QualcommAtheros_ath10k
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 317440
+Description:  ath10k qca9377 board firmware
+
+Package: ath10k-board-qca9887
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+LicenseFiles: LICENSE.QualcommAtheros_ath10k
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Description:  ath10k qca9887 board firmware
+
+Package: ath10k-board-qca9888
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+LicenseFiles: LICENSE.QualcommAtheros_ath10k
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 225280
+Description:  ath10k qca9888 board firmware
+
+Package: ath10k-board-qca988x
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+LicenseFiles: LICENSE.QualcommAtheros_ath10k
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Description:  ath10k qca988x board firmware
+
+Package: ath10k-board-qca9984
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+LicenseFiles: LICENSE.QualcommAtheros_ath10k
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 286720
+Description:  ath10k qca9984 board firmware
+
+Package: ath10k-board-qca99x0
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+LicenseFiles: LICENSE.QualcommAtheros_ath10k
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 184320
+Description:  ath10k qca99x0 board firmware
+
+Package: ath10k-firmware-qca4019
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+LicenseFiles: LICENSE.QualcommAtheros_ath10k
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 593920
+Description:  ath10k qca4019 firmware
+
+Package: ath10k-firmware-qca6174
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+LicenseFiles: LICENSE.QualcommAtheros_ath10k
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 2222080
+Description:  ath10k qca6174 firmware
+
+Package: ath10k-firmware-qca9377
+Version: 20241110-r2
+Depends: libc, ath10k-board-qca9377
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+LicenseFiles: LICENSE.QualcommAtheros_ath10k
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 757760
+Description:  ath10k qca9377 firmware
+
+Package: ath10k-firmware-qca9887
+Version: 20241110-r2
+Depends: libc, ath10k-board-qca9887
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+LicenseFiles: LICENSE.QualcommAtheros_ath10k
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 245760
+Description:  ath10k qca9887 firmware
+
+Package: ath10k-firmware-qca9888
+Version: 20241110-r2
+Depends: libc, ath10k-board-qca9888
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+LicenseFiles: LICENSE.QualcommAtheros_ath10k
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 706560
+Description:  ath10k qca9888 firmware
+
+Package: ath10k-firmware-qca988x
+Version: 20241110-r2
+Depends: libc, ath10k-board-qca988x
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+LicenseFiles: LICENSE.QualcommAtheros_ath10k
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 256000
+Description:  ath10k qca988x firmware
+
+Package: ath10k-firmware-qca9984
+Version: 20241110-r2
+Depends: libc, ath10k-board-qca9984
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+LicenseFiles: LICENSE.QualcommAtheros_ath10k
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 696320
+Description:  ath10k qca9984 firmware
+
+Package: ath10k-firmware-qca99x0
+Version: 20241110-r2
+Depends: libc, ath10k-board-qca99x0
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+LicenseFiles: LICENSE.QualcommAtheros_ath10k
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 491520
+Description:  ath10k qca99x0 firmware
+
+Package: ath11k-firmware-qca6390
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+LicenseFiles: LICENCE.atheros_firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 4208640
+Description:  QCA6390 ath11k firmware
+
+Package: ath11k-firmware-wcn6750
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+LicenseFiles: LICENCE.atheros_firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 8632320
+Description:  WCN6750 ath11k firmware
+
+Package: ath11k-firmware-wcn6855
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+LicenseFiles: LICENCE.atheros_firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 11878400
+Description:  WCN6855 ath11k firmware
+
+Package: ath12k-firmware-wcn7850
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 8355840
+Description:  WCN7850 ath12k firmware
+
+Package: ath6k-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 880640
+Description:  AR600X firmware
+
+Package: ath9k-htc-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+LicenseFiles: LICENCE.open-ath9k-htc-firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 133120
+Description:  AR9271/AR7010 firmware
+
+Package: bnx2-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 225280
+Description:  Broadcom BCM5706/5708/5709/5716 firmware
+
+Package: bnx2x-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 2703360
+Description:  =QLogic 5771x/578xx firmware
+
+Package: brcmfmac-firmware-4329-sdio
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+LicenseFiles: LICENCE.broadcom_bcm43xx
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 266240
+Description:  Broadcom BCM4329 FullMac SDIO firmware
+
+Package: brcmfmac-firmware-4339-sdio
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+LicenseFiles: LICENCE.cypressb
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 583680
+Description:  Broadcom 4339 FullMAC SDIO firmware
+
+Package: brcmfmac-firmware-43430a0-sdio
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+LicenseFiles: LICENCE.broadcom_bcm43xx
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 389120
+Description:  Broadcom BCM43430a0 FullMac SDIO firmware
+
+Package: brcmfmac-firmware-43602a1-pcie
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+LicenseFiles: LICENCE.broadcom_bcm43xx
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 604160
+Description:  Broadcom 43602a1 FullMAC PCIe firmware
+
+Package: brcmfmac-firmware-4366b1-pcie
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+LicenseFiles: LICENCE.broadcom_bcm43xx
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 1116160
+Description:  Broadcom 4366b1 FullMAC PCIe firmware
+
+Package: brcmfmac-firmware-4366c0-pcie
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+LicenseFiles: LICENCE.broadcom_bcm43xx
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 1126400
+Description:  Broadcom 4366c0 FullMAC PCIe firmware
+
+Package: brcmfmac-firmware-usb
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+LicenseFiles: LICENCE.broadcom_bcm43xx
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 757760
+Description:  Broadcom BCM43xx fullmac USB firmware
+
+Package: brcmfmac-nvram-43430-sdio
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+LicenseFiles: LICENCE.broadcom_bcm43xx
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 20480
+Description:  Broadcom BCM43430 SDIO NVRAM
+
+Package: brcmfmac-nvram-43455-sdio
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+LicenseFiles: LICENCE.broadcom_bcm43xx
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 30720
+Description:  Broadcom BCM43455 SDIO NVRAM
+
+Package: brcmfmac-nvram-4356-sdio
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+LicenseFiles: LICENCE.broadcom_bcm43xx
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Description:  Broadcom BCM4356 SDIO NVRAM
+
+Package: brcmsmac-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+LicenseFiles: LICENCE.broadcom_bcm43xx
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 102400
+Description:  Broadcom BCM43xx softmac PCIe firmware
+
+Package: ca-bundle
+Version: 20250419-r1
+Depends: libc
+Provides: ca-certs
+Source: feeds/base/package/system/ca-certificates
+SourceName: ca-certificates
+License: GPL-2.0-or-later MPL-2.0
+LicenseFiles: debian/copyright
+Section: base
+SourceDateEpoch: 1756042257
+Architecture: all
+Installed-Size: 235520
+Description:  System CA certificates as a bundle
+
+Package: ca-certificates
+Version: 20250419-r1
+Depends: libc
+Provides: ca-certs
+Source: feeds/base/package/system/ca-certificates
+SourceName: ca-certificates
+License: GPL-2.0-or-later MPL-2.0
+LicenseFiles: debian/copyright
+Section: base
+SourceDateEpoch: 1756042257
+Architecture: all
+Installed-Size: 419840
+Description:  System CA certificates
+
+Package: carl9170-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+LicenseFiles: carl9170fw/GPL
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 20480
+Description:  AR9170 firmware
+
+Package: e100-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Description:  Intel e100
+
+Package: edgeport-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 61440
+Description:  USB Inside Out Edgeport Serial Driver firmware
+
+Package: eip197-mini-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Description:  Inside Secure EIP197 mini firmware
+
+Package: fxload
+Version: 1.0.27-r1
+Depends: libc, libusb-1.0-0
+Source: feeds/base/package/libs/libusb
+SourceName: libusb
+License: LGPL-2.1-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1727022044
+URL: https://linux-hotplug.sourceforge.net
+CPE-ID: cpe:/a:libusb:libusb
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Description:  This program is conveniently able to download firmware into FX, FX2,
+ and FX2LP EZ-USB devices, as well as the original AnchorChips EZ-USB.
+ It is intended to be invoked by hotplug scripts when the unprogrammed
+ device appears on the bus.
+
+Package: i915-firmware-dmc
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+LicenseFiles: LICENSE.i915
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 1034240
+Description:  Intel I915 DMC firmware
+
+Package: i915-firmware-gsc
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+LicenseFiles: LICENSE.i915
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 1146880
+Description:  Intel I915 GSC firmware
+
+Package: i915-firmware-guc
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+LicenseFiles: LICENSE.i915
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 16814080
+Description:  Intel I915 GUC firmware
+
+Package: i915-firmware-huc
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+LicenseFiles: LICENSE.i915
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 9123840
+Description:  Intel I915 HUC firmware
+
+Package: i915-firmware
+Version: 20241110-r2
+Depends: libc, i915-firmware-dmc, i915-firmware-guc, i915-firmware-huc, i915-firmware-gsc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+LicenseFiles: LICENSE.i915
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Description:  Intel I915 firmware \(meta package\)
+
+Package: ibt-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 32307200
+Description:  Intel bluetooth firmware
+
+Package: iwinfo
+Version: 2024.10.20~b94f066e-r1
+Depends: libc, libiwinfo20230701
+Source: feeds/base/package/network/utils/iwinfo
+SourceName: libiwinfo
+License: GPL-2.0
+Section: utils
+SourceDateEpoch: 1729600843
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Description:  Command line frontend for the wireless information library.
+
+Package: iwl3945-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 153600
+Description:  Intel IWL3945 firmware
+
+Package: iwl4965-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 194560
+Description:  Intel IWL4965 firmware
+
+Package: iwlwifi-firmware-ax101
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 1536000
+Description:  Intel AX101 firmware
+
+Package: iwlwifi-firmware-ax200
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 1372160
+Description:  Intel AX200 firmware
+
+Package: iwlwifi-firmware-ax201
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 1413120
+Description:  Intel AX201 firmware
+
+Package: iwlwifi-firmware-ax210
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 1740800
+Description:  Intel AX210 firmware
+
+Package: iwlwifi-firmware-ax411
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 1628160
+Description:  Intel AX411 firmware
+
+Package: iwlwifi-firmware-be200
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 2222080
+Description:  Intel BE200 firmware
+
+Package: iwlwifi-firmware-iwl1000
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 348160
+Description:  Intel Centrino Wireless-N 1000 firmware
+
+Package: iwlwifi-firmware-iwl100
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 348160
+Description:  Intel Centrino Wireless-N 100 firmware
+
+Package: iwlwifi-firmware-iwl105
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 696320
+Description:  Intel Centrino Wireless-N 105 firmware
+
+Package: iwlwifi-firmware-iwl135
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 706560
+Description:  Intel Centrino Wireless-N 135 firmware
+
+Package: iwlwifi-firmware-iwl2000
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 706560
+Description:  Intel Centrino Wireless-N 2200 firmware
+
+Package: iwlwifi-firmware-iwl2030
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 716800
+Description:  Intel Centrino Wireless-N 2230 firmware
+
+Package: iwlwifi-firmware-iwl3160
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 921600
+Description:  Intel Wireless 3160 firmware
+
+Package: iwlwifi-firmware-iwl3168
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 1044480
+Description:  Intel Wireless 3168 firmware
+
+Package: iwlwifi-firmware-iwl5000
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 348160
+Description:  Intel Wireless 5100AGN 5300AGN and 5350AGN firmware
+
+Package: iwlwifi-firmware-iwl5150
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 348160
+Description:  Intel Wireless Wi-Fi 5150AGN firmware
+
+Package: iwlwifi-firmware-iwl6000g2
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 460800
+Description:  Intel Centrino 6300 and 6200 firmware
+
+Package: iwlwifi-firmware-iwl6000g2a
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 686080
+Description:  Intel Centrino 6205 firmware
+
+Package: iwlwifi-firmware-iwl6000g2b
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 686080
+Description:  Intel Centrino 6230 1030 130 and 6235 firmware
+
+Package: iwlwifi-firmware-iwl6050
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 481280
+Description:  Intel Centrino 6150 and 6250 firmware
+
+Package: iwlwifi-firmware-iwl7260
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 1054720
+Description:  Intel Wireless 7260 firmware
+
+Package: iwlwifi-firmware-iwl7265
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 1187840
+Description:  Intel Wireless 7265 firmware
+
+Package: iwlwifi-firmware-iwl7265d
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 1044480
+Description:  Intel Wireless 7265D and 3165 firmware
+
+Package: iwlwifi-firmware-iwl8260c
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 2437120
+Description:  Intel Wireless 8260 and 4165 firmware
+
+Package: iwlwifi-firmware-iwl8265
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 2447360
+Description:  Intel Wireless 8265 firmware
+
+Package: iwlwifi-firmware-iwl9000
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 1525760
+Description:  Intel Wireless 9000 firmware
+
+Package: iwlwifi-firmware-iwl9260
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 1495040
+Description:  Intel Wireless 9260 firmware
+
+Package: jshn
+Version: 2025.07.23~49056d17-r1
+Depends: libc, libjson-c5, libubox20240329, libblobmsg-json20240329
+Source: feeds/base/package/libs/libubox
+SourceName: libubox
+License: ISC
+Section: utils
+SourceDateEpoch: 1753265087
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 81920
+Description:  Library for parsing and generating JSON from shell scripts
+
+Package: libblobmsg-json20240329
+Version: 2025.07.23~49056d17-r1
+Depends: libc, libjson-c5, libubox20240329
+Provides: libblobmsg-json
+Source: feeds/base/package/libs/libubox
+SourceName: libubox
+License: ISC
+Section: libs
+SourceDateEpoch: 1753265087
+ABIVersion: 20240329
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Description:  blobmsg <-> json conversion library
+
+Package: libcap-bin
+Version: 2.69-r1
+Depends: libc, libcap
+Source: feeds/base/package/libs/libcap
+SourceName: libcap
+License: GPL-2.0-only
+LicenseFiles: License
+Section: libs
+SourceDateEpoch: 1684774291
+URL: https://www.kernel.org/pub/linux/libs/security/linux-privs/libcap2/
+CPE-ID: cpe:/a:libcap_project:libcap
+Maintainer: Paul Wassi <p.wassi@gmx.at>
+Architecture: aarch64_cortex-a53
+Installed-Size: 276480
+Description:  Linux capabilities
+ .
+ This package contains the libcap utilities.
+
+Package: libcap
+Version: 2.69-r1
+Depends: libc
+Source: feeds/base/package/libs/libcap
+SourceName: libcap
+License: GPL-2.0-only
+LicenseFiles: License
+Section: libs
+SourceDateEpoch: 1684774291
+URL: https://www.kernel.org/pub/linux/libs/security/linux-privs/libcap2/
+CPE-ID: cpe:/a:libcap_project:libcap
+Maintainer: Paul Wassi <p.wassi@gmx.at>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Description:  Linux capabilities library library
+
+Package: libertas-sdio-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+LicenseFiles: LICENCE.Marvell
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 501760
+Description:  Marvell 8385/8686/8688 SDIO firmware
+
+Package: libertas-spi-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+LicenseFiles: LICENCE.Marvell
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Description:  Marvell 8686 SPI firmware
+
+Package: libertas-usb-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+LicenseFiles: LICENCE.Marvell
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 307200
+Description:  Marvell 8388/8682 USB firmware
+
+Package: libgmp10
+Version: 6.3.0-r1
+Depends: libc
+Provides: libgmp
+Source: feeds/base/package/libs/gmp
+SourceName: gmp
+License: GPL-2.0-or-later
+Section: libs
+SourceDateEpoch: 1697533516
+URL: http://gmplib.org/
+ABIVersion: 10
+CPE-ID: cpe:/a:gmplib:gmp
+Architecture: aarch64_cortex-a53
+Installed-Size: 471040
+Description:  GMP is a free library for arbitrary precision arithmetic, operating on
+ signed integers, rational numbers, and floating point numbers.
+
+Package: libiwinfo-data
+Version: 2024.10.20~b94f066e-r1
+Depends: libc
+Source: feeds/base/package/network/utils/iwinfo
+SourceName: libiwinfo
+License: GPL-2.0
+Section: opt
+SourceDateEpoch: 1729600843
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 30720
+Description:  libiwinfo Lua binding
+
+Package: libiwinfo-lua
+Version: 2024.10.20~b94f066e-r1
+Depends: libc, libiwinfo20230701, liblua5.1.5
+Source: feeds/base/package/network/utils/iwinfo
+SourceName: libiwinfo
+License: GPL-2.0
+Section: lang
+SourceDateEpoch: 1729600843
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Description:  This is the Lua binding for the iwinfo library. It provides access to all enabled
+ backends.
+
+Package: libiwinfo20230701
+Version: 2024.10.20~b94f066e-r1
+Depends: libc, libnl-tiny1, libuci20250120, libubus20250102, libiwinfo-data
+Provides: libiwinfo
+Source: feeds/base/package/network/utils/iwinfo
+SourceName: libiwinfo
+License: GPL-2.0
+Section: libs
+SourceDateEpoch: 1729600843
+ABIVersion: 20230701
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Description:  Wireless information library with simplified API for nl80211
+ and wext driver interfaces.
+
+Package: libjson-c5
+Version: 0.18-r1
+Depends: libc
+Provides: libjson-c
+Source: feeds/base/package/libs/libjson-c
+SourceName: json-c
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1728124160
+URL: https://json-c.github.io/json-c/
+ABIVersion: 5
+CPE-ID: cpe:/a:json-c:json-c
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Description:  This package contains a library for javascript object notation backends.
+
+Package: libjson-script20240329
+Version: 2025.07.23~49056d17-r1
+Depends: libc, libubox20240329
+Provides: libjson-script
+Source: feeds/base/package/libs/libubox
+SourceName: libubox
+License: ISC
+Section: utils
+SourceDateEpoch: 1753265087
+ABIVersion: 20240329
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Description:  Minimalistic JSON based scripting engine
+
+Package: liblua5.1.5
+Version: 5.1.5-r11
+Depends: libc
+Provides: liblua
+Source: feeds/base/package/utils/lua
+SourceName: lua
+License: MIT
+LicenseFiles: COPYRIGHT
+Section: libs
+SourceDateEpoch: 1708131321
+URL: https://www.lua.org/
+ABIVersion: 5.1.5
+CPE-ID: cpe:/a:lua:lua
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 204800
+Description:  Lua is a powerful light-weight programming language designed for extending 
+ applications. Lua is also frequently used as a general-purpose, stand-alone 
+ language. Lua is free software.
+ This package contains the Lua shared libraries, needed by other programs.
+
+Package: libmbedtls21
+Version: 3.6.5-r1
+Depends: libc
+Provides: libmbedtls
+Source: feeds/base/package/libs/mbedtls
+SourceName: mbedtls
+License: GPL-2.0-or-later
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1760790348
+URL: https://www.trustedfirmware.org/projects/mbed-tls/
+ABIVersion: 21
+CPE-ID: cpe:/a:arm:mbed_tls
+Architecture: aarch64_cortex-a53
+Installed-Size: 860160
+Description:  The aim of the mbedtls project is to provide a quality, open-source
+ cryptographic library written in C and targeted at embedded systems.
+ This package contains the mbedtls library.
+
+Package: libncurses-dev
+Version: 6.4-r2
+Depends: libc, zlib
+Source: feeds/base/package/libs/ncurses
+SourceName: ncurses
+License: MIT
+LicenseFiles: README
+Section: devel
+SourceDateEpoch: 1722187835
+CPE-ID: cpe:/a:gnu:ncurses
+Architecture: aarch64_cortex-a53
+Installed-Size: 1218560
+Description:  Development files for the ncurses library
+
+Package: libncurses6
+Version: 6.4-r2
+Depends: libc, terminfo
+Provides: libncursesw, libncurses, libncursesw6
+Source: feeds/base/package/libs/ncurses
+SourceName: ncurses
+License: MIT
+LicenseFiles: README
+Section: libs
+SourceDateEpoch: 1722187835
+URL: http://www.gnu.org/software/ncurses/
+ABIVersion: 6
+CPE-ID: cpe:/a:gnu:ncurses
+Architecture: aarch64_cortex-a53
+Installed-Size: 614400
+Description:  Terminal handling library (Unicode)
+
+Package: libnl-tiny1
+Version: 2025.03.19~c0df580a-r1
+Depends: libc
+Provides: libnl-tiny
+Source: feeds/base/package/libs/libnl-tiny
+SourceName: libnl-tiny
+License: LGPL-2.1
+Section: libs
+SourceDateEpoch: 1742386821
+ABIVersion: 1
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Description:  This package contains a stripped down version of libnl
+
+Package: libreadline8
+Version: 8.2-r2
+Depends: libc, libncursesw6
+Provides: libreadline
+Source: feeds/base/package/libs/readline
+SourceName: readline
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1732819649
+URL: http://cnswww.cns.cwru.edu/php/chet/readline/rltop.html
+ABIVersion: 8
+CPE-ID: cpe:/a:gnu:readline
+Architecture: aarch64_cortex-a53
+Installed-Size: 430080
+Description:  The Readline library provides a set of functions for use by applications
+ that allow users to edit command lines as they are typed in. Both Emacs
+ and vi editing modes are available. The Readline library includes
+ additional functions to maintain a list of previously-entered command
+ lines, to recall and perhaps reedit those lines, and perform csh-like
+ history expansion on previous commands.
+
+Package: libubox-lua
+Version: 2025.07.23~49056d17-r1
+Depends: libc, libubox20240329, liblua5.1.5
+Source: feeds/base/package/libs/libubox
+SourceName: libubox
+License: ISC
+Section: libs
+SourceDateEpoch: 1753265087
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Description:  Lua binding for the OpenWrt Basic utility library
+
+Package: libubox20240329
+Version: 2025.07.23~49056d17-r1
+Depends: libc
+Provides: libubox
+Source: feeds/base/package/libs/libubox
+SourceName: libubox
+License: ISC
+Section: libs
+SourceDateEpoch: 1753265087
+ABIVersion: 20240329
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Description:  Basic utility library
+
+Package: libubus-lua
+Version: 2025.10.17~60e04048-r1
+Depends: libc, libubus20250102, liblua5.1.5
+Source: feeds/base/package/system/ubus
+SourceName: ubus
+License: LGPL-2.1
+Section: libs
+SourceDateEpoch: 1760792196
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Description:  Lua binding for the OpenWrt RPC client
+
+Package: libubus20250102
+Version: 2025.10.17~60e04048-r1
+Depends: libc, libubox20240329
+Provides: libubus
+Source: feeds/base/package/system/ubus
+SourceName: ubus
+License: LGPL-2.1
+Section: libs
+SourceDateEpoch: 1760792196
+ABIVersion: 20250102
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Description:  OpenWrt RPC client library
+
+Package: libuci-lua
+Version: 2025.01.20~16ff0bad-r1
+Depends: libc, libuci20250120, liblua5.1.5
+Source: feeds/base/package/system/uci
+SourceName: uci
+License: LGPL-2.1
+Section: libs
+SourceDateEpoch: 1737407871
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Description:  Lua plugin for UCI
+
+Package: libuci20250120
+Version: 2025.01.20~16ff0bad-r1
+Depends: libc, libubox20240329
+Provides: libuci
+Source: feeds/base/package/system/uci
+SourceName: uci
+License: LGPL-2.1
+Section: libs
+SourceDateEpoch: 1737407871
+ABIVersion: 20250120
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Description:  C library for the Unified Configuration Interface (UCI)
+
+Package: libucode20230711
+Version: 2025.07.18~3f64c808-r1
+Depends: libc, libjson-c5
+Provides: libucode
+Source: feeds/base/package/utils/ucode
+SourceName: ucode
+License: ISC
+Section: libs
+SourceDateEpoch: 1753265954
+ABIVersion: 20230711
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 204800
+Description:  The libucode package provides the shared runtime library for the ucode interpreter.
+
+Package: libusb-1.0-0
+Version: 1.0.27-r1
+Depends: libc, libpthread, librt, libatomic1
+Provides: libusb-1.0
+Source: feeds/base/package/libs/libusb
+SourceName: libusb
+License: LGPL-2.1-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1727022044
+URL: https://libusb.info/
+ABIVersion: -0
+CPE-ID: cpe:/a:libusb:libusb
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Description:  libusb is a C library that gives applications easy access to USB devices on
+ many different operating systems.
+
+Package: lua-examples
+Version: 5.1.5-r11
+Depends: libc, lua
+Source: feeds/base/package/utils/lua
+SourceName: lua
+License: MIT
+LicenseFiles: COPYRIGHT
+Section: lang
+SourceDateEpoch: 1708131321
+URL: https://www.lua.org/
+CPE-ID: cpe:/a:lua:lua
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 30720
+Description:  Lua is a powerful light-weight programming language designed for extending 
+ applications. Lua is also frequently used as a general-purpose, stand-alone 
+ language. Lua is free software.
+ This package contains Lua language examples.
+
+Package: lua
+Version: 5.1.5-r11
+Depends: libc, liblua5.1.5
+Source: feeds/base/package/utils/lua
+SourceName: lua
+License: MIT
+LicenseFiles: COPYRIGHT
+Section: lang
+SourceDateEpoch: 1708131321
+URL: https://www.lua.org/
+CPE-ID: cpe:/a:lua:lua
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Description:  Lua is a powerful light-weight programming language designed for extending 
+ applications. Lua is also frequently used as a general-purpose, stand-alone 
+ language. Lua is free software.
+ This package contains the Lua language interpreter.
+
+Package: luac
+Version: 5.1.5-r11
+Depends: libc, liblua5.1.5
+Source: feeds/base/package/utils/lua
+SourceName: lua
+License: MIT
+LicenseFiles: COPYRIGHT
+Section: lang
+SourceDateEpoch: 1708131321
+URL: https://www.lua.org/
+CPE-ID: cpe:/a:lua:lua
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Description:  Lua is a powerful light-weight programming language designed for extending 
+ applications. Lua is also frequently used as a general-purpose, stand-alone 
+ language. Lua is free software.
+ This package contains the Lua language compiler.
+
+Package: luci-app-qmodem-next
+Version: 3.0.0-r1
+Depends: libc, qmodem, luci-base, sms-forwarder-next
+Source: feeds/base/qmodem/luci/luci-app-qmodem-next
+SourceName: luci-app-qmodem-next
+License: GPLv3
+Section: luci
+SourceDateEpoch: 1768032555
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 225280
+Description:  LuCI Modern UI for QModem(Not Support Lua Version)
+
+Package: luci-i18n-qmodem-next-zh-cn
+Version: 26.010.29355~d93c24d
+Depends: libc, luci-app-qmodem-next
+Source: feeds/base/qmodem/luci/luci-app-qmodem-next
+SourceName: luci-app-qmodem-next
+License: GPLv3
+Section: luci
+SourceDateEpoch: 1768032555
+Maintainer: Tom <fjrcn@outlook.com>
+Architecture: all
+Installed-Size: 30720
+Description:  Translation for luci-app-qmodem-next - 简体中文 (Simplified Chinese)
+
+Package: mbedtls-util
+Version: 3.6.5-r1
+Depends: libc, libmbedtls21
+Source: feeds/base/package/libs/mbedtls
+SourceName: mbedtls
+License: GPL-2.0-or-later
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1760790348
+URL: https://www.trustedfirmware.org/projects/mbed-tls/
+CPE-ID: cpe:/a:arm:mbed_tls
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Description:  The aim of the mbedtls project is to provide a quality, open-source
+ cryptographic library written in C and targeted at embedded systems.
+ This package contains mbedtls helper programs for private key and
+ CSR generation (gen_key, cert_req)
+
+Package: mlxsw_spectrum-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 35983360
+Description:  Mellanox Spectrum firmware
+
+Package: mlxsw_spectrum2-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 23183360
+Description:  Mellanox Spectrum-2 firmware
+
+Package: mlxsw_spectrum3-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 17899520
+Description:  Mellanox Spectrum-3 firmware
+
+Package: mlxsw_spectrum4-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 8448000
+Description:  Mellanox Spectrum-4 firmware
+
+Package: mt7601u-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+LicenseFiles: LICENCE.mediatek
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 51200
+Description:  MediaTek MT7601U firmware
+
+Package: mt7622bt-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+LicenseFiles: LICENCE.mediatek
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 81920
+Description:  mt7622bt firmware
+
+Package: mt7921bt-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+LicenseFiles: LICENCE.mediatek
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 542720
+Description:  mt7921bt firmware
+
+Package: mt7922bt-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+LicenseFiles: LICENCE.mediatek
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 522240
+Description:  mt7922bt firmware
+
+Package: mt7981-wo-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+LicenseFiles: LICENCE.mediatek
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 2437120
+Description:  MT7981 offload firmware
+
+Package: mt7986-wo-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+LicenseFiles: LICENCE.mediatek
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 4864000
+Description:  MT7986 offload firmware
+
+Package: mt7988-2p5g-phy-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+LicenseFiles: LICENCE.mediatek
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Description:  MT7988 built-in 2.5G Ethernet PHY firmware
+
+Package: mt7988-wo-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+LicenseFiles: LICENCE.mediatek
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 225280
+Description:  MT7988 offload firmware
+
+Package: mwifiex-pcie-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+LicenseFiles: LICENCE.Marvell
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 737280
+Description:  Marvell 8897 firmware
+
+Package: mwifiex-sdio-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+LicenseFiles: LICENCE.Marvell
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 1249280
+Description:  Marvell 8887/8997 firmware
+
+Package: mwl8k-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+LicenseFiles: LICENCE.Marvell
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 296960
+Description:  Marvell 8366/8687 firmware
+
+Package: qmodem
+Version: 3.0.0-r1
+Depends: libc, kmod-usb2, kmod-usb3, kmod-usb-serial, kmod-usb-serial-option, kmod-usb-serial-qualcomm, kmod-usb-net, kmod-usb-acm, kmod-usb-wdm, kmod-usb-net-cdc-ether, kmod-usb-net-cdc-mbim, kmod-usb-net-rndis, kmod-usb-net-cdc-ncm, kmod-usb-net-huawei-cdc-ncm, ubus-at-daemon, tom_modem, terminfo, sms-tool_q, jq, bc, coreutils, coreutils-stat, usbutils, ndisc6, kmod-qmi_wwan_q, kmod-qmi_wwan_f, kmod-qmi_wwan_s, quectel-CM-5G-M
+Source: feeds/base/qmodem/application/qmodem
+SourceName: qmodem
+Section: utils
+SourceDateEpoch: 1768032555
+Architecture: all
+Installed-Size: 624640
+Description:  QModem scripts
+
+Package: quectel-CM-5G-M
+Version: 3.0.0-r1
+Depends: libc, libjson-c5
+Source: feeds/base/qmodem/application/quectel_CM_5G_M
+SourceName: quectel-CM-5G-M
+Section: utils
+SourceDateEpoch: 1768032555
+Architecture: aarch64_cortex-a53
+Installed-Size: 1187840
+Description:  quectel-CM-5G app building test
+
+Package: r8152-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 30720
+Description:  RealTek RTL8152 firmware
+
+Package: r8169-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 153600
+Description:  RealTek RTL8169 firmware
+
+Package: radeon-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+LicenseFiles: LICENSE.radeon
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 7290880
+Description:  Radeon Video Driver firmware
+
+Package: rpcd-mod-file
+Version: 2025.09.01~bba95191-r1
+Depends: libc, libubus20250102, libubox20240329, rpcd
+Source: feeds/base/package/system/rpcd
+SourceName: rpcd
+License: ISC
+Section: utils
+SourceDateEpoch: 1756761626
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Description:  Provides ubus calls for file and directory operations.
+
+Package: rpcd-mod-iwinfo
+Version: 2025.09.01~bba95191-r1
+Depends: libiwinfo (>=2023.01.21), libc, libubus20250102, libubox20240329, rpcd, libiwinfo20230701
+Source: feeds/base/package/system/rpcd
+SourceName: rpcd
+License: ISC
+Section: utils
+SourceDateEpoch: 1756761626
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Description:  Provides ubus calls for accessing iwinfo data.
+
+Package: rpcd-mod-rpcsys
+Version: 2025.09.01~bba95191-r1
+Depends: libc, libubus20250102, libubox20240329, rpcd
+Source: feeds/base/package/system/rpcd
+SourceName: rpcd
+License: ISC
+Section: utils
+SourceDateEpoch: 1756761626
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Description:  Provides ubus calls for sysupgrade and password changing.
+
+Package: rpcd-mod-ucode
+Version: 2025.09.01~bba95191-r1
+Depends: libc, libubus20250102, libubox20240329, rpcd, libucode20230711
+Source: feeds/base/package/system/rpcd
+SourceName: rpcd
+License: ISC
+Section: utils
+SourceDateEpoch: 1756761626
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Description:  Allows implementing plugins using ucode scripts.
+
+Package: rpcd
+Version: 2025.09.01~bba95191-r1
+Depends: libc, libubus20250102, libubox20240329, libuci20250120, libblobmsg-json20240329, libjson-c5
+Source: feeds/base/package/system/rpcd
+SourceName: rpcd
+License: ISC
+Section: utils
+SourceDateEpoch: 1756761626
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 81920
+Description:  This package provides the UBUS RPC backend server to expose various
+ functionality to frontend programs via JSON-RPC.
+
+Package: rs9113-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 204800
+Description:  RedPine Signals rs9113 firmware
+
+Package: rt2800-pci-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 20480
+Description:  Ralink RT28xx/3xxx PCI/SoC firmware
+
+Package: rt2800-usb-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 20480
+Description:  Ralink RT28xx/3xxx USB firmware
+
+Package: rt61-pci-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 30720
+Description:  Ralink RT2561 firmware
+
+Package: rt73-usb-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Description:  Ralink RT2573 firmware
+
+Package: rtl8188eu-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+LicenseFiles: LICENCE.rtlwifi_firmware.txt
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 20480
+Description:  RealTek RTL8188EU firmware
+
+Package: rtl8188fu-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+LicenseFiles: LICENCE.rtlwifi_firmware.txt
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 30720
+Description:  RealTek RTL8188FU firmware
+
+Package: rtl8192ce-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+LicenseFiles: LICENCE.rtlwifi_firmware.txt
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 61440
+Description:  RealTek RTL8192CE firmware
+
+Package: rtl8192cu-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+LicenseFiles: LICENCE.rtlwifi_firmware.txt
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Description:  RealTek RTL8192CU firmware
+
+Package: rtl8192de-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+LicenseFiles: LICENCE.rtlwifi_firmware.txt
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 40960
+Description:  RealTek RTL8192DE firmware
+
+Package: rtl8192du-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+LicenseFiles: LICENCE.rtlwifi_firmware.txt
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 40960
+Description:  RealTek RTL8192DU firmware
+
+Package: rtl8192eu-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+LicenseFiles: LICENCE.rtlwifi_firmware.txt
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 40960
+Description:  RealTek RTL8192EU firmware
+
+Package: rtl8192se-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+LicenseFiles: LICENCE.rtlwifi_firmware.txt
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 92160
+Description:  RealTek RTL8192SE firmware
+
+Package: rtl8723au-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+LicenseFiles: LICENCE.rtlwifi_firmware.txt
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Description:  RealTek RTL8723AU firmware
+
+Package: rtl8723be-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+LicenseFiles: LICENCE.rtlwifi_firmware.txt
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Description:  RealTek RTL8723BE firmware
+
+Package: rtl8723bu-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+LicenseFiles: LICENCE.rtlwifi_firmware.txt
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 40960
+Description:  RealTek RTL8723BU firmware
+
+Package: rtl8723de-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 40960
+Description:  RealTek RTL8723DE firmware
+
+Package: rtl8761a-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 81920
+Description:  RealTek RTL8761A firmware
+
+Package: rtl8761b-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 51200
+Description:  RealTek RTL8761B firmware
+
+Package: rtl8761bu-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 51200
+Description:  RealTek RTL8761BU firmware
+
+Package: rtl8812a-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 30720
+Description:  RealTek RTL8812AU firmware
+
+Package: rtl8821a-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 40960
+Description:  RealTek RTL8821AU firmware
+
+Package: rtl8821ae-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+LicenseFiles: LICENCE.rtlwifi_firmware.txt
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 61440
+Description:  RealTek RTL8821AE firmware
+
+Package: rtl8821ce-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Description:  RealTek RTL8821CE firmware
+
+Package: rtl8822be-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 163840
+Description:  RealTek RTL8822BE firmware
+
+Package: rtl8822ce-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 358400
+Description:  RealTek RTL8822CE firmware
+
+Package: rtl8851be-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 1167360
+Description:  RealTek RTL8851BE firmware
+
+Package: rtl8852ae-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 1433600
+Description:  RealTek RTL8852AE firmware
+
+Package: rtl8852be-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 1249280
+Description:  RealTek RTL8852BE firmware
+
+Package: rtl8852ce-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 1546240
+Description:  RealTek RTL8852CE firmware
+
+Package: rtl8922ae-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 1546240
+Description:  RealTek RTL8922AE firmware
+
+Package: sms-forwarder-next
+Version: 3.0.0-r1
+Depends: libc, tom_modem, jq, curl, ucode, ucode-mod-ubus, ucode-mod-uci
+Source: feeds/base/qmodem/application/sms_forwarder_next
+SourceName: sms-forwarder-next
+Section: utils
+SourceDateEpoch: 1768032555
+Architecture: aarch64_cortex-a53
+Installed-Size: 40960
+Description:  SMS forward service for QModem that supports multiple forwarding methods:
+ - Telegram Bot
+ - ServerChan
+ - Generic Webhook
+ - Custom Script
+
+Package: sms-tool_q
+Version: 3.0.0-r1
+Depends: libc
+Source: feeds/base/qmodem/application/sms-tool_q
+SourceName: sms-tool_q
+Section: utils
+SourceDateEpoch: 1768032555
+URL: https://github.com/obsy/sms_tool
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Description:  SMS Tool for 3G/4G/5G modem
+
+Package: terminfo
+Version: 6.4-r2
+Depends: libc
+Source: feeds/base/package/libs/ncurses
+SourceName: ncurses
+License: MIT
+LicenseFiles: README
+Section: libs
+SourceDateEpoch: 1722187835
+URL: http://www.gnu.org/software/ncurses/
+CPE-ID: cpe:/a:gnu:ncurses
+Architecture: aarch64_cortex-a53
+Installed-Size: 61440
+Description:  Terminal Info Database (ncurses)
+
+Package: ti-3410-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 20480
+Description:  TI 3410 firmware
+
+Package: ti-5052-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 20480
+Description:  TI 5052 firmware
+
+Package: tom_modem
+Version: 3.0.0-r1
+Depends: libc, libubus20250102, libubox20240329, libjson-c5, libblobmsg-json20240329
+Source: feeds/base/qmodem/application/tom_modem
+SourceName: tom_modem
+Section: utils
+SourceDateEpoch: 1768032555
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Description:  Modem Communite Tool for 5G modem (By Fujr)
+
+Package: ubus-at-daemon
+Version: 3.0.0-r1
+Depends: libc, libubus20250102, libubox20240329, libblobmsg-json20240329, libjson-c5
+Source: feeds/base/qmodem/application/ubus_at_daemon
+SourceName: ubus-at-daemon
+Section: utils
+SourceDateEpoch: 1768032555
+Architecture: aarch64_cortex-a53
+Installed-Size: 81920
+Description:  A ubus daemon for handling AT commands with OpenWRT
+
+Package: ubus
+Version: 2025.10.17~60e04048-r1
+Depends: libc, libubus20250102, libblobmsg-json20240329, ubusd
+Source: feeds/base/package/system/ubus
+SourceName: ubus
+License: LGPL-2.1
+Section: base
+SourceDateEpoch: 1760792196
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Description:  OpenWrt RPC client utility
+
+Package: ubusd
+Version: 2025.10.17~60e04048-r1
+Depends: libc, libubox20240329, libblobmsg-json20240329
+Source: feeds/base/package/system/ubus
+SourceName: ubus
+License: LGPL-2.1
+Section: base
+Require-User: ubus=81:ubus=81
+SourceDateEpoch: 1760792196
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Description:  OpenWrt RPC daemon
+
+Package: uci
+Version: 2025.01.20~16ff0bad-r1
+Depends: libc, libuci20250120
+Source: feeds/base/package/system/uci
+SourceName: uci
+License: LGPL-2.1
+Section: base
+SourceDateEpoch: 1737407871
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 81920
+Description:  Utility for the Unified Configuration Interface (UCI)
+
+Package: ucode-mod-debug
+Version: 2025.07.18~3f64c808-r1
+Depends: libc, ucode, libubox20240329, libucode20230711
+Source: feeds/base/package/utils/ucode
+SourceName: ucode
+License: ISC
+Section: lang
+SourceDateEpoch: 1753265954
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Description:  The debug plugin module provides runtime debugging and introspection facilities.
+
+Package: ucode-mod-digest
+Version: 2025.07.18~3f64c808-r1
+Depends: libc, ucode
+Source: feeds/base/package/utils/ucode
+SourceName: ucode
+License: ISC
+Section: lang
+SourceDateEpoch: 1753265954
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Description:  The digest module allows ucode scripts to use libmd digests.
+
+Package: ucode-mod-fs
+Version: 2025.07.18~3f64c808-r1
+Depends: libc, ucode
+Source: feeds/base/package/utils/ucode
+SourceName: ucode
+License: ISC
+Section: lang
+SourceDateEpoch: 1753265954
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Description:  The filesystem plugin module allows interaction with the local file system.
+
+Package: ucode-mod-log
+Version: 2025.07.18~3f64c808-r1
+Depends: libc, ucode, libubox20240329
+Source: feeds/base/package/utils/ucode
+SourceName: ucode
+License: ISC
+Section: lang
+SourceDateEpoch: 1753265954
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Description:  The log plugin module provides access to the syslog and libubox ulog APIs.
+
+Package: ucode-mod-math
+Version: 2025.07.18~3f64c808-r1
+Depends: libc, ucode
+Source: feeds/base/package/utils/ucode
+SourceName: ucode
+License: ISC
+Section: lang
+SourceDateEpoch: 1753265954
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Description:  The math plugin provides access to various <math.h> procedures.
+
+Package: ucode-mod-nl80211
+Version: 2025.07.18~3f64c808-r1
+Depends: libc, ucode, libnl-tiny1, libubox20240329
+Source: feeds/base/package/utils/ucode
+SourceName: ucode
+License: ISC
+Section: lang
+SourceDateEpoch: 1753265954
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Description:  The nl80211 plugin provides access to the Linux wireless 802.11 netlink API.
+
+Package: ucode-mod-resolv
+Version: 2025.07.18~3f64c808-r1
+Depends: libc, ucode
+Source: feeds/base/package/utils/ucode
+SourceName: ucode
+License: ISC
+Section: lang
+SourceDateEpoch: 1753265954
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Description:  The resolv plugin implements simple DNS resolving.
+
+Package: ucode-mod-rtnl
+Version: 2025.07.18~3f64c808-r1
+Depends: libc, ucode, libnl-tiny1, libubox20240329
+Source: feeds/base/package/utils/ucode
+SourceName: ucode
+License: ISC
+Section: lang
+SourceDateEpoch: 1753265954
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Description:  The rtnl plugin provides access to the Linux routing netlink API.
+
+Package: ucode-mod-socket
+Version: 2025.07.18~3f64c808-r1
+Depends: libc, ucode
+Source: feeds/base/package/utils/ucode
+SourceName: ucode
+License: ISC
+Section: lang
+SourceDateEpoch: 1753265954
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 81920
+Description:  The socket plugin provides access to IPv4
+
+Package: ucode-mod-struct
+Version: 2025.07.18~3f64c808-r1
+Depends: libc, ucode
+Source: feeds/base/package/utils/ucode
+SourceName: ucode
+License: ISC
+Section: lang
+SourceDateEpoch: 1753265954
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Description:  The struct plugin implements Python 3 compatible struct.pack/unpack functionality.
+
+Package: ucode-mod-ubus
+Version: 2025.07.18~3f64c808-r1
+Depends: libc, ucode, libubus20250102, libblobmsg-json20240329
+Source: feeds/base/package/utils/ucode
+SourceName: ucode
+License: ISC
+Section: lang
+SourceDateEpoch: 1753265954
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Description:  The ubus module allows ucode template scripts to enumerate and invoke ubus procedures.
+
+Package: ucode-mod-uci
+Version: 2025.07.18~3f64c808-r1
+Depends: libc, ucode, libuci20250120
+Source: feeds/base/package/utils/ucode
+SourceName: ucode
+License: ISC
+Section: lang
+SourceDateEpoch: 1753265954
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Description:  The uci module allows templates to read and modify uci configuration.
+
+Package: ucode-mod-uloop
+Version: 2025.07.18~3f64c808-r1
+Depends: libc, ucode, libubox20240329
+Source: feeds/base/package/utils/ucode
+SourceName: ucode
+License: ISC
+Section: lang
+SourceDateEpoch: 1753265954
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Description:  The uloop module allows ucode scripts to interact with OpenWrt uloop event loop implementation.
+
+Package: ucode
+Version: 2025.07.18~3f64c808-r1
+Depends: libc, libucode20230711
+Source: feeds/base/package/utils/ucode
+SourceName: ucode
+License: ISC
+Section: lang
+SourceDateEpoch: 1753265954
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Description:  ucode is a tiny script interpreter featuring an ECMAScript oriented
+ script language and Jinja-inspired templating.
+
+Package: wil6210-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 409600
+Description:  wil6210 firmware
+
+Package: wl12xx-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+LicenseFiles: LICENCE.ti-connectivity
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 2170880
+Description:  TI WL12xx firmware
+
+Package: wl18xx-firmware
+Version: 20241110-r2
+Depends: libc
+Source: feeds/base/package/firmware/linux-firmware
+SourceName: linux-firmware
+LicenseFiles: LICENCE.ti-connectivity
+Section: firmware
+SourceDateEpoch: 1746599582
+URL: http://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 757760
+Description:  TI WL18xx firmware
+
+Package: zlib-dev
+Version: 1.3.1-r1
+Depends: libc, zlib
+Source: feeds/base/package/libs/zlib
+SourceName: zlib
+License: Zlib
+LicenseFiles: README
+Section: devel
+SourceDateEpoch: 1706891189
+CPE-ID: cpe:/a:gnu:zlib
+Architecture: aarch64_cortex-a53
+Installed-Size: 235520
+Description:  zlib is a lossless data-compression library.
+ This package includes the development support files.
+
+Package: zlib
+Version: 1.3.1-r1
+Depends: libc
+Source: feeds/base/package/libs/zlib
+SourceName: zlib
+License: Zlib
+LicenseFiles: README
+Section: libs
+SourceDateEpoch: 1706891189
+URL: http://www.zlib.net/
+CPE-ID: cpe:/a:gnu:zlib
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Description:  zlib is a lossless data-compression library.
+ This package includes the shared library.
+
