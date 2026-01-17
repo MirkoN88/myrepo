@@ -1,0 +1,109 @@
+Lost field SourceName, luci-app-qmodem-next
+Lost field SourceDateEpoch, 1768032555
+Lost field URL, https://github.com/openwrt/luci
+Lost field Installed-Size, 225280
+Lost field SourceName, qmodem
+Lost field SourceDateEpoch, 1768032555
+Lost field Installed-Size, 624640
+Lost field SourceName, quectel-CM-5G-M
+Lost field SourceDateEpoch, 1768032555
+Lost field Installed-Size, 1187840
+Lost field SourceName, sms-forwarder-next
+Lost field SourceDateEpoch, 1768032555
+Lost field Installed-Size, 40960
+Lost field SourceName, sms-tool_q
+Lost field SourceDateEpoch, 1768032555
+Lost field URL, https://github.com/obsy/sms_tool
+Lost field Installed-Size, 71680
+Lost field SourceName, tom_modem
+Lost field SourceDateEpoch, 1768032555
+Lost field Installed-Size, 71680
+Lost field SourceName, ubus-at-daemon
+Lost field SourceDateEpoch, 1768032555
+Lost field Installed-Size, 81920
+Package: luci-app-qmodem-next
+Version: 3.0.0-r1
+Depends: libc, qmodem, luci-base, sms-forwarder-next
+Section: luci
+Architecture: all
+Maintainer: OpenWrt LuCI community
+MD5Sum: 88fd72ea56ae70d6dff57fad001bbe3a
+Size: 41813
+Filename: luci-app-qmodem-next_3.0.0-r1_all.ipk
+Source: feeds/base/qmodem/luci/luci-app-qmodem-next
+Description: LuCI Modern UI for QModem(Not Support Lua Version)
+License: GPLv3
+
+
+Package: qmodem
+Version: 3.0.0-r1
+Depends: libc, kmod-usb2, kmod-usb3, kmod-usb-serial, kmod-usb-serial-option, kmod-usb-serial-qualcomm, kmod-usb-net, kmod-usb-acm, kmod-usb-wdm, kmod-usb-net-cdc-ether, kmod-usb-net-cdc-mbim, kmod-usb-net-rndis, kmod-usb-net-cdc-ncm, kmod-usb-net-huawei-cdc-ncm, ubus-at-daemon, tom_modem, terminfo, sms-tool_q, jq, bc, coreutils, coreutils-stat, usbutils, ndisc6, kmod-qmi_wwan_q, kmod-qmi_wwan_f, kmod-qmi_wwan_s, quectel-CM-5G-M
+Section: utils
+Architecture: all
+MD5Sum: fea6eb21f3a8c797cf339603e9feb47a
+Size: 92359
+Filename: qmodem_3.0.0-r1_all.ipk
+Source: feeds/base/qmodem/application/qmodem
+Description: QModem scripts
+
+
+Package: quectel-CM-5G-M
+Version: 3.0.0-r1
+Depends: libc, libjson-c5
+Section: utils
+Architecture: aarch64_cortex-a53
+MD5Sum: 29c32189e7f5a0b66320688b1a13e938
+Size: 132916
+Filename: quectel-CM-5G-M_3.0.0-r1_aarch64_cortex-a53.ipk
+Source: feeds/base/qmodem/application/quectel_CM_5G_M
+Description: quectel-CM-5G app building test
+
+
+Package: sms-forwarder-next
+Version: 3.0.0-r1
+Depends: libc, tom_modem, jq, curl, ucode, ucode-mod-ubus, ucode-mod-uci
+Section: utils
+Architecture: aarch64_cortex-a53
+MD5Sum: 967ba1c4a682aa469e3d84e754d35ddb
+Size: 9995
+Filename: sms-forwarder-next_3.0.0-r1_aarch64_cortex-a53.ipk
+Source: feeds/base/qmodem/application/sms_forwarder_next
+Description: SMS forward service for QModem that supports multiple forwarding methods:
+
+
+Package: sms-tool_q
+Version: 3.0.0-r1
+Depends: libc
+Section: utils
+Architecture: aarch64_cortex-a53
+MD5Sum: fffeb756f42fefc6153ffe95b12a173e
+Size: 10019
+Filename: sms-tool_q_3.0.0-r1_aarch64_cortex-a53.ipk
+Source: feeds/base/qmodem/application/sms-tool_q
+Description: SMS Tool for 3G/4G/5G modem
+
+
+Package: tom_modem
+Version: 3.0.0-r1
+Depends: libc, libubus20250102, libubox20240329, libjson-c5, libblobmsg-json20240329
+Section: utils
+Architecture: aarch64_cortex-a53
+MD5Sum: 0952c3da9ec0de2597e7eec65f92ca1b
+Size: 17296
+Filename: tom_modem_3.0.0-r1_aarch64_cortex-a53.ipk
+Source: feeds/base/qmodem/application/tom_modem
+Description: Modem Communite Tool for 5G modem (By Fujr)
+
+
+Package: ubus-at-daemon
+Version: 3.0.0-r1
+Depends: libc, libubus20250102, libubox20240329, libblobmsg-json20240329, libjson-c5
+Section: utils
+Architecture: aarch64_cortex-a53
+MD5Sum: ac8c7482b6b6a0c1836286b09bf1e4e7
+Size: 11531
+Filename: ubus-at-daemon_3.0.0-r1_aarch64_cortex-a53.ipk
+Source: feeds/base/qmodem/application/ubus_at_daemon
+Description: A ubus daemon for handling AT commands with OpenWRT
+
+
