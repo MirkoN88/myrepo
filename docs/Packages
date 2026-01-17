@@ -1,7 +1,20 @@
+Lost field SourceName, qmi_wwan_f
+Lost field SourceDateEpoch, 1768032555
+Lost field Installed-Size, 51200
+Lost field SourceName, qmi_wwan_q
+Lost field SourceDateEpoch, 1768032555
+Lost field Installed-Size, 51200
+Lost field SourceName, qmi_wwan_s
+Lost field SourceDateEpoch, 1768032555
+Lost field Installed-Size, 20480
 Lost field SourceName, luci-app-qmodem-next
 Lost field SourceDateEpoch, 1768032555
 Lost field URL, https://github.com/openwrt/luci
 Lost field Installed-Size, 225280
+Lost field SourceName, ndisc6
+Lost field SourceDateEpoch, 1768032555
+Lost field URL, http://www.remlab.net/ndisc6/
+Lost field Installed-Size, 71680
 Lost field SourceName, qmodem
 Lost field SourceDateEpoch, 1768032555
 Lost field Installed-Size, 624640
@@ -21,6 +34,42 @@ Lost field Installed-Size, 71680
 Lost field SourceName, ubus-at-daemon
 Lost field SourceDateEpoch, 1768032555
 Lost field Installed-Size, 81920
+Package: kmod-qmi_wwan_f
+Version: 6.6.119.1.0-r5
+Depends: kernel (=6.6.119~6a9e125268c43e0bae8cecb014c8ab03-r1), kmod-usb-net, kmod-usb-wdm
+Section: kernel
+Architecture: aarch64_cortex-a53
+MD5Sum: a253922a9e25dc9124b5e386b34c924b
+Size: 14070
+Filename: kmod-qmi_wwan_f_6.6.119.1.0-r5_aarch64_cortex-a53.ipk
+Source: feeds/base/qmodem/driver/fibocom_QMI_WWAN
+Description: Fibocom Linux USB QMI WWAN Driver
+
+
+Package: kmod-qmi_wwan_q
+Version: 6.6.119.1.2.9-r3
+Depends: kernel (=6.6.119~6a9e125268c43e0bae8cecb014c8ab03-r1), kmod-usb-net, kmod-usb-wdm
+Section: kernel
+Architecture: aarch64_cortex-a53
+MD5Sum: eaa93fbae154cd3bb428cf9d4f054313
+Size: 14426
+Filename: kmod-qmi_wwan_q_6.6.119.1.2.9-r3_aarch64_cortex-a53.ipk
+Source: feeds/base/qmodem/driver/quectel_QMI_WWAN
+Description: Quectel Linux USB QMI WWAN Driver
+
+
+Package: kmod-qmi_wwan_s
+Version: 6.6.119.1.0-r2
+Depends: kernel (=6.6.119~6a9e125268c43e0bae8cecb014c8ab03-r1), kmod-usb-net, kmod-usb-wdm
+Section: kernel
+Architecture: aarch64_cortex-a53
+MD5Sum: 822eb96c870e1d3b7e07bb1946bd5aaa
+Size: 4282
+Filename: kmod-qmi_wwan_s_6.6.119.1.0-r2_aarch64_cortex-a53.ipk
+Source: feeds/base/qmodem/driver/simcom_QMI_WWAN
+Description: Simcom Linux USB QMI WWAN Driver
+
+
 Package: luci-app-qmodem-next
 Version: 3.0.0-r1
 Depends: libc, qmodem, luci-base, sms-forwarder-next
@@ -33,6 +82,18 @@ Filename: luci-app-qmodem-next_3.0.0-r1_all.ipk
 Source: feeds/base/qmodem/luci/luci-app-qmodem-next
 Description: LuCI Modern UI for QModem(Not Support Lua Version)
 License: GPLv3
+
+
+Package: ndisc6
+Version: 1.0.2-r1
+Depends: libc, libpthread, librt
+Section: ipv6
+Architecture: aarch64_cortex-a53
+MD5Sum: 8b7bfcf12ab71185955397e924d1a4b2
+Size: 6131
+Filename: ndisc6_1.0.2-r1_aarch64_cortex-a53.ipk
+Source: feeds/base/qmodem/application/ndisc6
+Description: An ICMPv6 neighbour discovery tools
 
 
 Package: qmodem
