@@ -7,10 +7,18 @@ Lost field Installed-Size, 51200
 Lost field SourceName, qmi_wwan_s
 Lost field SourceDateEpoch, 1768032555
 Lost field Installed-Size, 20480
+Lost field SourceName, luci-app-qmodem-mwan
+Lost field SourceDateEpoch, 1768032555
+Lost field URL, https://github.com/openwrt/luci
+Lost field Installed-Size, 30720
 Lost field SourceName, luci-app-qmodem-next
 Lost field SourceDateEpoch, 1768032555
 Lost field URL, https://github.com/openwrt/luci
 Lost field Installed-Size, 225280
+Lost field SourceName, luci-app-qmodem-ttl
+Lost field SourceDateEpoch, 1768032555
+Lost field URL, https://github.com/openwrt/luci
+Lost field Installed-Size, 20480
 Lost field SourceName, ndisc6
 Lost field SourceDateEpoch, 1768032555
 Lost field URL, http://www.remlab.net/ndisc6/
@@ -70,6 +78,20 @@ Source: feeds/base/qmodem/driver/simcom_QMI_WWAN
 Description: Simcom Linux USB QMI WWAN Driver
 
 
+Package: luci-app-qmodem-mwan
+Version: 3.0.0-r1
+Depends: libc, luci-app-qmodem, luci-app-mwan3, luci-lua-runtime
+Section: luci
+Architecture: all
+Maintainer: OpenWrt LuCI community
+MD5Sum: cb82013495ed7679f636bd052407f147
+Size: 4167
+Filename: luci-app-qmodem-mwan_3.0.0-r1_all.ipk
+Source: feeds/base/qmodem/luci/luci-app-qmodem-mwan
+Description: Luci qwrt modem mwan support
+License: GPLv3
+
+
 Package: luci-app-qmodem-next
 Version: 3.0.0-r1
 Depends: libc, qmodem, luci-base, sms-forwarder-next
@@ -81,6 +103,20 @@ Size: 41813
 Filename: luci-app-qmodem-next_3.0.0-r1_all.ipk
 Source: feeds/base/qmodem/luci/luci-app-qmodem-next
 Description: LuCI Modern UI for QModem(Not Support Lua Version)
+License: GPLv3
+
+
+Package: luci-app-qmodem-ttl
+Version: 3.0.0-r1
+Depends: libc, luci-app-qmodem, luci-lua-runtime
+Section: luci
+Architecture: all
+Maintainer: OpenWrt LuCI community
+MD5Sum: b7ca32e83ffc70bc9f70479f168bbe53
+Size: 2471
+Filename: luci-app-qmodem-ttl_3.0.0-r1_all.ipk
+Source: feeds/base/qmodem/luci/luci-app-qmodem-ttl
+Description: Luci qwrt modem ttl support
 License: GPLv3
 
 
