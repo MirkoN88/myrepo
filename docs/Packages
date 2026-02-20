@@ -19,6 +19,10 @@ Lost field SourceName, luci-app-qmodem-ttl
 Lost field SourceDateEpoch, 1768032555
 Lost field URL, https://github.com/openwrt/luci
 Lost field Installed-Size, 20480
+Lost field SourceName, luci-app-qmodem
+Lost field SourceDateEpoch, 1768032555
+Lost field URL, https://github.com/openwrt/luci
+Lost field Installed-Size, 122880
 Lost field SourceName, ndisc6
 Lost field SourceDateEpoch, 1768032555
 Lost field URL, http://www.remlab.net/ndisc6/
@@ -117,6 +121,20 @@ Size: 2471
 Filename: luci-app-qmodem-ttl_3.0.0-r1_all.ipk
 Source: feeds/base/qmodem/luci/luci-app-qmodem-ttl
 Description: Luci qwrt modem ttl support
+License: GPLv3
+
+
+Package: luci-app-qmodem
+Version: 3.0.0-r1
+Depends: libc, luci-compat, qmodem, luci-lua-runtime
+Section: luci
+Architecture: all
+Maintainer: OpenWrt LuCI community
+MD5Sum: 79a94fd47a9252aa79febc12a229995d
+Size: 23312
+Filename: luci-app-qmodem_3.0.0-r1_all.ipk
+Source: feeds/base/qmodem/luci/luci-app-qmodem
+Description: LuCI support for QWRT Modem
 License: GPLv3
 
 
