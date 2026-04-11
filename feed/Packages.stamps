@@ -1,10 +1,12 @@
 1768659690 kmod-qmi_wwan_f_6.6.119.1.0-r5_aarch64_cortex-a53.ipk
 1768659690 kmod-qmi_wwan_q_6.6.119.1.2.9-r3_aarch64_cortex-a53.ipk
 1768659690 kmod-qmi_wwan_s_6.6.119.1.0-r2_aarch64_cortex-a53.ipk
+1775921200 luci-app-modem-doctor_0.1.0-r1_all.ipk
 1771616502 luci-app-qmodem-mwan_3.0.0-r1_all.ipk
 1768644572 luci-app-qmodem-next_3.0.0-r1_all.ipk
 1771617045 luci-app-qmodem-ttl_3.0.0-r1_all.ipk
 1771618860 luci-app-qmodem_3.0.0-r1_all.ipk
+1775921200 modem-doctor_0.1.0-r1_all.ipk
 1768659690 ndisc6_1.0.2-r1_aarch64_cortex-a53.ipk
 1768644572 qmodem_3.0.0-r1_all.ipk
 1768644572 quectel-CM-5G-M_3.0.0-r1_aarch64_cortex-a53.ipk
