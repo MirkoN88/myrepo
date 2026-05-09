@@ -1,3 +1,11 @@
+Lost field SourceName, atinout
+Lost field LicenseFiles, LICENSE
+Lost field SourceDateEpoch, 1778273899
+Lost field URL, http://atinout.sourceforge.net/
+Lost field Installed-Size, 71680
+Lost field SourceName, cellled
+Lost field SourceDateEpoch, 1778273899
+Lost field Installed-Size, 20480
 Lost field SourceName, qmi_wwan_f
 Lost field SourceDateEpoch, 1768032555
 Lost field Installed-Size, 51200
@@ -7,10 +15,22 @@ Lost field Installed-Size, 51200
 Lost field SourceName, qmi_wwan_s
 Lost field SourceDateEpoch, 1768032555
 Lost field Installed-Size, 20480
+Lost field SourceName, luci-app-cellled
+Lost field SourceDateEpoch, 1778273899
+Lost field URL, https://github.com/openwrt/luci
+Lost field Installed-Size, 20480
+Lost field SourceName, luci-app-mmconfig
+Lost field SourceDateEpoch, 1778273899
+Lost field URL, https://github.com/openwrt/luci
+Lost field Installed-Size, 30720
 Lost field SourceName, luci-app-modem-doctor
 Lost field SourceDateEpoch, 1770467866
 Lost field URL, https://github.com/openwrt/luci
 Lost field Installed-Size, 40960
+Lost field SourceName, luci-app-modeminfo
+Lost field SourceDateEpoch, 1778273899
+Lost field URL, https://github.com/openwrt/luci
+Lost field Installed-Size, 71680
 Lost field SourceName, luci-app-qmodem-mwan
 Lost field SourceDateEpoch, 1768032555
 Lost field URL, https://github.com/openwrt/luci
@@ -30,6 +50,9 @@ Lost field Installed-Size, 122880
 Lost field SourceName, modem-doctor
 Lost field SourceDateEpoch, 1770467866
 Lost field Installed-Size, 40960
+Lost field SourceName, modeminfo
+Lost field SourceDateEpoch, 1778273899
+Lost field Installed-Size, 30720
 Lost field SourceName, ndisc6
 Lost field SourceDateEpoch, 1768032555
 Lost field URL, http://www.remlab.net/ndisc6/
@@ -53,6 +76,33 @@ Lost field Installed-Size, 71680
 Lost field SourceName, ubus-at-daemon
 Lost field SourceDateEpoch, 1768032555
 Lost field Installed-Size, 81920
+Package: atinout
+Version: 0.9.1
+Depends: libc
+Section: net
+Architecture: aarch64_cortex-a53
+Maintainer: Adrian Guenter <a@gntr.me>
+MD5Sum: a9c4ffec5d2636e887fdae27fc355828
+Size: 4136
+Filename: atinout_0.9.1_aarch64_cortex-a53.ipk
+Source: feeds/modemfeed/packages/telephony/atinout
+Description: Atinout is a program that will execute AT commands in sequence and
+License: GPLv2
+
+
+Package: cellled
+Version: 0.0.1-r1
+Depends: libc
+Section: opt
+Architecture: all
+Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
+MD5Sum: c9ef32c31b6cea6bff3faf2a5072fd3c
+Size: 2592
+Filename: cellled_0.0.1-r1_all.ipk
+Source: feeds/modemfeed/packages/net/cellled
+Description: Indicate LED cellular signal signal strength.
+
+
 Package: kmod-qmi_wwan_f
 Version: 6.6.119.1.0-r5
 Depends: kernel (=6.6.119~6a9e125268c43e0bae8cecb014c8ab03-r1), kmod-usb-net, kmod-usb-wdm
@@ -89,6 +139,33 @@ Source: feeds/base/qmodem/driver/simcom_QMI_WWAN
 Description: Simcom Linux USB QMI WWAN Driver
 
 
+Package: luci-app-cellled
+Version: 0.1.0-r2
+Depends: libc, cellled
+Section: luci
+Architecture: all
+Maintainer: OpenWrt LuCI community
+MD5Sum: 9b09458c06a94db886b71c4ffa9b7722
+Size: 3050
+Filename: luci-app-cellled_0.1.0-r2_all.ipk
+Source: feeds/modemfeed/luci/applications/luci-app-cellled
+Description: LuCI application for showing cellular RSSI LED
+
+
+Package: luci-app-mmconfig
+Version: 0.1.1-r5
+Depends: libc, luci-proto-modemmanager, luci-app-modeminfo
+Section: luci
+Architecture: all
+Maintainer: OpenWrt LuCI community
+MD5Sum: 93ee81283aa651446e7afb8282fba12f
+Size: 4355
+Filename: luci-app-mmconfig_0.1.1-r5_all.ipk
+Source: feeds/modemfeed/luci/applications/luci-app-mmconfig
+Description: Configrure modem bands via mmcli utility
+License: GPLv3
+
+
 Package: luci-app-modem-doctor
 Version: 0.1.0-r1
 Depends: libc, luci-base, modem-doctor
@@ -101,6 +178,20 @@ Filename: luci-app-modem-doctor_0.1.0-r1_all.ipk
 Source: feeds/modem_doctor/luci-app-modem-doctor
 Description: Web interface for modem monitoring and connection management
 License: Apache-2.0
+
+
+Package: luci-app-modeminfo
+Version: 0.4.5-r1
+Depends: libc, modeminfo
+Section: luci
+Architecture: all
+Maintainer: OpenWrt LuCI community
+MD5Sum: 44e64eb77a4799208e2dee65b226df7c
+Size: 9068
+Filename: luci-app-modeminfo_0.4.5-r1_all.ipk
+Source: feeds/modemfeed/luci/applications/luci-app-modeminfo
+Description: Information dashboard for 3G/LTE dongle
+License: GPLv3
 
 
 Package: luci-app-qmodem-mwan
@@ -171,6 +262,19 @@ Filename: modem-doctor_0.1.0-r1_all.ipk
 Source: feeds/modem_doctor/modem-doctor
 Description: Modem Doctor monitors cellular connection quality on Quectel modems and
 License: Apache-2.0
+
+
+Package: modeminfo
+Version: 0.4.5-r5
+Depends: libc, comgt
+Section: net
+Architecture: all
+Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
+MD5Sum: 68943c135d51d3d52097fa488d425681
+Size: 5210
+Filename: modeminfo_0.4.5-r5_all.ipk
+Source: feeds/modemfeed/packages/net/modeminfo
+Description: Signal information for 3G/LTE dongle
 
 
 Package: ndisc6
